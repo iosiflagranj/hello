@@ -3,12 +3,19 @@
 
 
 
+int main(int argc,char *argv[]){
+if(argc!=2){
 
 
-
-int main(){
-printf("Hello World!);
-return 0;
-
-
+	printf("USAGE %s name \n",argv[0]);
+	return -1;
 }
+
+
+
+printf("hello, %s!\n,argv[1]);
+return 0;
+}
+
+
+
